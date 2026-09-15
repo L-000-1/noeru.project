@@ -1,0 +1,663 @@
+<html>
+
+
+
+<!------ 簡単な段落分け的なやつ ------>
+
+<head>
+ <link rel="icon" href="C:\Users\noeru\Pictures\編集\常用\HP\タイトルアイコン.jpg">
+ <title>初手出しポケモン第2世代</title>
+ <link rel="stylesheet" href="C:\Users\noeru\Pictures\編集\常用\HP\サイトトップ\ポケモン情報\ポケモン役割.css">
+</head>
+
+<body background="C:\Users\noeru\Pictures\編集\常用\HP\背景関連画像\Chanpions少し白い.jpg">
+
+<!----------               ---------->
+
+
+
+<strong>
+ <font size="8" color="#ff0000">
+  <div style="text-align:center;">
+   ポケモン研究まとめサイト
+  </div>
+ </font>
+</strong>
+
+
+<br>
+
+
+<font color="#000000">
+ <div style="text-align:center;">
+  ポケモンをクリックするとそのポケモンのサイトに飛びます。
+ </div>
+</font>
+
+
+<br>
+
+
+<!----------               ---------->
+
+<style>.example2{margin: auto;}</style>
+<table width=800 class="example2">
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+</table>
+
+<br>
+ <div style="text-align:center;">
+  ここからは第10世代以降登場のポケモン
+ </div>
+<br>
+
+<style>.example2{margin: auto;}</style>
+<table width=800 class="example2">
+
+ <tr>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+  <th width=25%>
+   
+  </th>
+ </tr>
+
+ <tr>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+  <td><a href= target="_blank">
+   <img src= width=200 height=200>
+  </a></td>
+ </tr>
+
+</table>
+
+<!----------               ---------->
+
+
+
+</html>
