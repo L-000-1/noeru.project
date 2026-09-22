@@ -69,5 +69,54 @@
  </table> 
 </div>
 
+<h2>最新の投稿（直近5件）</h2>
+<div id="latestPosts"></div>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  import { getFirestore, collection, query, orderBy, limit, getDocs } 
+    from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyBvvLItcbG3ajY7FAvWy9bzocYSldiVUNk",
+    authDomain: "toukou-form.firebaseapp.com",
+    projectId: "toukou-form",
+    storageBucket: "toukou-form.appspot.com",
+    messagingSenderId: "549216615731",
+    appId: "1:549216615731:web:fc471bec0aacf2f364d246"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  async function loadLatestPosts() {
+    const postsRef = collection(db, "posts");
+
+    // ★ createdAt の新しい順に5件だけ取得
+    const q = query(postsRef, orderBy("createdAt", "desc"), limit(5));
+
+    const querySnapshot = await getDocs(q);
+
+    let html = "";
+
+    querySnapshot.forEach(doc => {
+      const data = doc.data();
+
+      html += `
+        <div class="post">
+          <p>${data.text}</p>
+          ${data.image ? `<img src="${data.image}" style="max-width:200px;">` : ""}
+          <small>${data.createdAt.toDate().toLocaleString()}</small>
+        </div>
+      `;
+    });
+
+    document.getElementById("latestPosts").innerHTML = html;
+  }
+
+  loadLatestPosts();
+</script>
+
+
 </body>
 </html>
