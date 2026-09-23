@@ -1,11 +1,8 @@
 body {
-   background-image:url("C:\Users\noeru\Pictures\編集\常用\HP\背景関連画像\Chanpions少し白い.jpg"),;
+   background-image:url("../背景関連画像/Chanpions少し白い.png");
    background-size:cover;
    background-attachment:fixed;
    background-repeat:no-repeat;
-}
-
-body > * {
     position: relative;
     z-index: 2; /* 白レイヤーより前に出す */
 }
