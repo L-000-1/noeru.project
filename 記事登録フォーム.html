@@ -12,6 +12,13 @@
 
 <p id="register-result" style="color:green;"></p>
 
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("key") !== "seiru-only") {
+    document.body.innerHTML = "このページは存在しません";
+  }
+</script>
+
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
   import { 
@@ -70,13 +77,6 @@
         }
       });
     }
-  }
-</script>
-
-<script>
-  const params = new URLSearchParams(window.location.search);
-  if (params.get("key") !== "seiru-only") {
-    document.body.innerHTML = "このページは存在しません";
   }
 </script>
 
