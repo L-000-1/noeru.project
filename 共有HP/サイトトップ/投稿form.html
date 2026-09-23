@@ -10,6 +10,27 @@
 
 <body>
 
+<style>
+  #article-title, #article-url, #article-images {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  #register-btn {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #register-btn:hover {
+    background: #45a049;
+  }
+</style>
+  
   <h2>投稿フォーム</h2>
 
   <form id="postForm">
@@ -17,7 +38,7 @@
     <textarea id="textInput" rows="5" cols="40"></textarea><br><br>
 
     <label>画像：</label><br>
-    <input type="file" id="imageInput"><br><br>
+    <input id="article-images" type="file" multiple><br><br>
 
     <button type="submit">投稿する</button>
   </form>
@@ -58,18 +79,24 @@
       let imageURL = "";
 
       // 画像がある場合は Storage にアップロード
-      if (file) {
-        const storageRef = ref(storage, "images/" + file.name);
-        await uploadBytes(storageRef, file);
-        imageURL = await getDownloadURL(storageRef);
-      }
+      const imageFiles = document.getElementById("article-images").files;
+const imageUrls = [];
+
+for (const file of imageFiles) {
+  const storageRef = ref(storage, "articles/" + file.name);
+  await uploadBytes(storageRef, file);
+  const url = await getDownloadURL(storageRef);
+  imageUrls.push(url);
+}
+
 
       // Firestore に保存
-      await addDoc(collection(db, "posts"), {
-        text: text,
-        image: imageURL,
-        createdAt: new Date()
-      });
+      await addDoc(collection(db, "articles"), {
+  title,
+  url,
+  images: imageUrls,   // ← 配列で保存
+  createdAt: serverTimestamp()
+});
 
       document.getElementById("status").innerText = "投稿完了！";
       document.getElementById("postForm").reset();
