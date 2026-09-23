@@ -18,7 +18,14 @@
     getFirestore, collection, addDoc, getDocs, query, orderBy, deleteDoc 
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
-  const firebaseConfig = { ... };
+  const firebaseConfig = {
+    apiKey: "AIzaSyBvvLItcbG3ajY7FAvWy9bzocYSldiVUNk",
+    authDomain: "toukou-form.firebaseapp.com",
+    projectId: "toukou-form",
+    storageBucket: "toukou-form.appspot.com",
+    messagingSenderId: "549216615731",
+    appId: "1:549216615731:web:fc471bec0aacf2f364d246"
+  };
 
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
@@ -62,7 +69,6 @@
   }
 </script>
 
-<!-- 🔥 秘密キー判定は一番最後に置く -->
 <script>
   const params = new URLSearchParams(window.location.search);
   if (params.get("key") !== "seiru-only") {
