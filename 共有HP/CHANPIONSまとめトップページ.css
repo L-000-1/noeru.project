@@ -93,6 +93,22 @@ th:active {
   box-shadow: 0 4px 12px rgba(0,0,0,0.25);
 }
 
+.latest-item {
+  background: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.latest-item a {
+  font-size: 18px;
+  font-weight: bold;
+}
+.latest-item small {
+  color: #666;
+}
+
+
 th a {
   display: block;
   text-decoration: none;
