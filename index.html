@@ -80,8 +80,14 @@
 
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-  import { getFirestore, collection, query, orderBy, limit, getDocs } 
-    from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+  import {
+    getFirestore,
+    collection,
+    getDocs,
+    query,
+    orderBy,
+    limit
+  } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
   const firebaseConfig = {
     apiKey: "AIzaSyBvvLItcbG3ajY7FAvWy9bzocYSldiVUNk",
@@ -95,39 +101,6 @@
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
 
-  async function loadLatestPosts() {
-    const postsRef = collection(db, "posts");
-
-    // ★ createdAt の新しい順に5件だけ取得
-    const q = query(postsRef, orderBy("createdAt", "desc"), limit(5));
-
-    const querySnapshot = await getDocs(q);
-
-    let html = "";
-
-    querySnapshot.forEach(doc => {
-      const data = doc.data();
-
-      html += `
-        <div class="post">
-          <p>${data.text}</p>
-          ${data.image ? `<img src="${data.image}" style="max-width:200px;">` : ""}
-          <small>${data.createdAt.toDate().toLocaleString()}</small>
-        </div>
-      `;
-    });
-
-    document.getElementById("latestPosts").innerHTML = html;
-  }
-
-  loadLatestPosts();
-</script>
-
-<script type="module">
-  import { 
-    collection, getDocs, query, orderBy, limit 
-  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
-
   async function loadLatestArticles() {
     const q = query(
       collection(db, "articles"),
@@ -138,14 +111,19 @@
     const snapshot = await getDocs(q);
     const list = document.getElementById("latest-articles");
 
+    list.innerHTML = ""; // 初期化
+
     snapshot.forEach(doc => {
       const data = doc.data();
 
+      const dateText = data.createdAt
+        ? data.createdAt.toDate().toLocaleString()
+        : "";
+
       const item = document.createElement("li");
       item.innerHTML = `
-        <a href="${data.url}">
-          ${data.title}
-        </a>
+        <a href="${data.url}" target="_blank">${data.title}</a><br>
+        <small>${dateText}</small>
       `;
       list.appendChild(item);
     });
@@ -153,6 +131,7 @@
 
   loadLatestArticles();
 </script>
+
 
 </body>
 </html>
