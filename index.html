@@ -122,9 +122,12 @@
 
       const item = document.createElement("li");
       item.innerHTML = `
-        <a href="${data.url}" target="_blank">${data.title}</a><br>
-        <small>${dateText}</small>
-      `;
+  <div class="latest-item">
+    <a href="${data.url}" target="_blank">${data.title}</a>
+    <br>
+    <small>${dateText}</small>
+  </div>
+`;
       list.appendChild(item);
     });
   }
