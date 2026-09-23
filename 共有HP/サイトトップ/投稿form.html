@@ -28,7 +28,8 @@
   <script type="module">
     // Firebase 基本セット
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-    import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+   import { getFirestore, collection, addDoc, serverTimestamp } 
+  from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
     import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-storage.js";
 
     // あなたの Firebase 設定（貼ってくれたやつ）
