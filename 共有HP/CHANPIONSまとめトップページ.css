@@ -100,7 +100,7 @@ th:active {
   border-radius: 12px;
   width: 350px;
   margin: 0 auto; /* ← 中央寄せ */
-  border: 2px solid #ddd;
+  border: 5px solid #ddd;
 }
 
 /* タイトル */
@@ -125,7 +125,7 @@ th:active {
   background: #f8f8f8;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 3px solid #ddd;
   width: 95%; /* ← 親カードの幅に合わせる */
 }
 
