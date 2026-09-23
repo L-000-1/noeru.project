@@ -126,7 +126,7 @@ th:active {
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #ddd;
-  width: 100%; /* ← 親カードの幅に合わせる */
+  width: 90%; /* ← 親カードの幅に合わせる */
 }
 
 .latest-item a {
