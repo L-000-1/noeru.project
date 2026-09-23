@@ -1,16 +1,36 @@
 <html>
 
-<h3>記事を登録する（タイトル＋URL）</h3>
-<input id="article-title" placeholder="記事タイトル">
-<input id="article-url" placeholder="記事URL">
+<h2>記事登録フォーム（管理者用）</h2>
+
+<label>記事タイトル：</label><br>
+<input id="article-title" type="text" placeholder="例：メガライボルト育成論"><br><br>
+
+<label>記事URL：</label><br>
+<input id="article-url" type="text" placeholder="例：./共有HP/サイトトップ/ポケモン/mega_raibolt.html"><br><br>
+
 <button onclick="registerArticle()">登録する</button>
-<div id="register-result"></div>
+
+<p id="register-result" style="color:green;"></p>
 
 <script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
   import { 
-    collection, addDoc, getDocs, query, orderBy, deleteDoc 
+    getFirestore, collection, addDoc, getDocs, query, orderBy, deleteDoc 
   } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
+  const firebaseConfig = {
+    apiKey: "AIzaSyBvvLItcbG3ajY7FAvWy9bzocYSldiVUNk",
+    authDomain: "toukou-form.firebaseapp.com",
+    projectId: "toukou-form",
+    storageBucket: "toukou-form.appspot.com",
+    messagingSenderId: "549216615731",
+    appId: "1:549216615731:web:fc471bec0aacf2f364d246"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // ★ 記事を登録する処理
   async function registerArticle() {
     const title = document.getElementById("article-title").value;
     const url = document.getElementById("article-url").value;
@@ -20,7 +40,7 @@
       return;
     }
 
-    // Firestore に記事を追加
+    // Firestore に追加
     await addDoc(collection(db, "articles"), {
       title: title,
       url: url,
@@ -33,6 +53,7 @@
     document.getElementById("register-result").innerText = "登録完了！";
   }
 
+  // ★ 古い記事を削除して常に5件だけにする
   async function trimArticles() {
     const articlesRef = collection(db, "articles");
     const q = query(articlesRef, orderBy("createdAt", "asc"));
@@ -51,6 +72,7 @@
     }
   }
 </script>
+
 
 
 </html>
