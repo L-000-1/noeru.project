@@ -119,6 +119,36 @@
   loadLatestPosts();
 </script>
 
+<script type="module">
+  import { 
+    collection, getDocs, query, orderBy, limit 
+  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  async function loadLatestArticles() {
+    const q = query(
+      collection(db, "articles"),
+      orderBy("createdAt", "desc"),
+      limit(5)
+    );
+
+    const snapshot = await getDocs(q);
+    const list = document.getElementById("latest-articles");
+
+    snapshot.forEach(doc => {
+      const data = doc.data();
+
+      const item = document.createElement("li");
+      item.innerHTML = `
+        <a href="${data.url}">
+          ${data.title}
+        </a>
+      `;
+      list.appendChild(item);
+    });
+  }
+
+  loadLatestArticles();
+</script>
 
 </body>
 </html>
