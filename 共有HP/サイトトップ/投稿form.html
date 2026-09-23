@@ -86,7 +86,7 @@ function renderPreview() {
       del.textContent = "🗑";
       del.className = "delete-btn";
 
-      // ★ index をその場で閉じ込める（ズレない）
+      // ★ index を閉じ込める（ズレない）
       del.addEventListener("click", () => {
         selectedImages.splice(index, 1);
         renderPreview();
@@ -100,15 +100,6 @@ function renderPreview() {
   });
 }
 
-
-    document.querySelectorAll(".delete-btn").forEach(btn => {
-      btn.addEventListener("click", () => {
-        const idx = btn.dataset.index;
-        selectedImages.splice(idx, 1);
-        renderPreview();
-      });
-    });
-  }
 
   /* -----------------------------
      ★ 投稿処理
