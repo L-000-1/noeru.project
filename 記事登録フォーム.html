@@ -14,9 +14,17 @@
 
 <script type="module">
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
- import {
-  getFirestore, collection, addDoc, getDocs, query, orderBy, deleteDoc
-} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+  import {
+    getFirestore,
+    collection,
+    addDoc,
+    getDocs,
+    query,
+    orderBy,
+    deleteDoc,
+    serverTimestamp
+  } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
   
   const firebaseConfig = {
     apiKey: "AIzaSyBvvLItcbG3ajY7FAvWy9bzocYSldiVUNk",
@@ -39,16 +47,14 @@
       return;
     }
 
-import { serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+    // ⭐ Firestore に記事を追加（Timestamp で保存）
+    await addDoc(collection(db, "articles"), {
+      title: title,
+      url: url,
+      createdAt: serverTimestamp()
+    });
 
-await addDoc(collection(db, "articles"), {
-  title: title,
-  url: url,
-  createdAt: serverTimestamp()
-});
-
-<small>${data.createdAt ? data.createdAt.toDate().toLocaleString() : ""}</small>
-
+    // ⭐ 古い記事を削除（常に5件に保つ）
     await trimArticles();
 
     document.getElementById("register-result").innerText = "登録完了！";
@@ -72,7 +78,8 @@ await addDoc(collection(db, "articles"), {
     }
   }
 
-document.getElementById("register-btn").addEventListener("click", registerArticle);
+  // ⭐ ボタンにイベントを付ける（onclick は使わない）
+  document.getElementById("register-btn").addEventListener("click", registerArticle);
 
 </script>
 
