@@ -19,6 +19,9 @@
   <label>画像（複数可）：</label><br>
   <input id="post-images" type="file" multiple><br><br>
 
+  <!-- 選択済み画像のプレビュー -->
+  <div id="preview-area"></div>
+
   <button id="post-btn">投稿する</button>
 </div>
 
@@ -58,6 +61,80 @@ async function registerPost() {
     alert("文章か画像を入力してね");
     return;
   }
+
+  let selectedImages = []; // 下書き保存みたいに保持する配列
+
+document.getElementById("post-images").addEventListener("change", (e) => {
+  const files = Array.from(e.target.files);
+
+  // 新しく選択した画像を追加
+  selectedImages = selectedImages.concat(files);
+
+  // input をクリア（上書き防止）
+  e.target.value = "";
+
+  renderPreview();
+});
+
+function renderPreview() {
+  const preview = document.getElementById("preview-area");
+  preview.innerHTML = "";
+
+  selectedImages.forEach((file, index) => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      const div = document.createElement("div");
+      div.className = "preview-item";
+
+      div.innerHTML = `
+        <img src="${reader.result}" class="preview-img">
+        <button class="delete-btn" data-index="${index}">🗑</button>
+      `;
+
+      preview.appendChild(div);
+    };
+    reader.readAsDataURL(file);
+  });
+
+  // ゴミ箱ボタンの動作
+  document.querySelectorAll(".delete-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = btn.dataset.index;
+      selectedImages.splice(idx, 1); // 配列から削除
+      renderPreview(); // 再描画
+    });
+  });
+}
+
+async function registerPost() {
+  const text = document.getElementById("post-text").value;
+
+  if (!text && selectedImages.length === 0) {
+    alert("文章か画像を入力してね");
+    return;
+  }
+
+  const imageUrls = [];
+
+  // Storage にアップロード
+  for (const file of selectedImages) {
+    const storageRef = ref(storage, "posts/" + file.name);
+    await uploadBytes(storageRef, file);
+    const url = await getDownloadURL(storageRef);
+    imageUrls.push(url);
+  }
+
+  // Firestore に保存
+  await addDoc(collection(db, "posts"), {
+    text: text,
+    images: imageUrls,
+    createdAt: serverTimestamp()
+  });
+
+  alert("投稿完了！");
+  selectedImages = [];
+  renderPreview();
+}
 
   // Storage に複数画像アップロード
   const imageUrls = [];
