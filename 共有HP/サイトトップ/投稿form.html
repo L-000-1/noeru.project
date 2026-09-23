@@ -47,10 +47,14 @@
   const db = getFirestore(app);
   const storage = getStorage(app);
 
-  // ★ 下書き保存用の配列（グローバル）
+  /* -----------------------------
+     ★ 下書き保存用の配列（グローバル）
+  ----------------------------- */
   let selectedImages = [];
 
-  // ★ 画像選択イベント
+  /* -----------------------------
+     ★ 画像選択イベント
+  ----------------------------- */
   document.getElementById("post-images").addEventListener("change", (e) => {
     const files = Array.from(e.target.files);
 
@@ -61,7 +65,9 @@
     renderPreview();
   });
 
-  // ★ プレビュー表示
+  /* -----------------------------
+     ★ プレビュー表示
+  ----------------------------- */
   function renderPreview() {
     const preview = document.getElementById("preview-area");
     preview.innerHTML = "";
@@ -91,7 +97,9 @@
     });
   }
 
-  // ★ 投稿処理
+  /* -----------------------------
+     ★ 投稿処理
+  ----------------------------- */
   document.getElementById("post-btn").addEventListener("click", registerPost);
 
   async function registerPost() {
@@ -118,7 +126,10 @@
     });
 
     alert("投稿完了！");
+
+    // ★ 投稿後にリセット
     selectedImages = [];
+    document.getElementById("post-text").value = "";
     renderPreview();
   }
 </script>
