@@ -1,0 +1,56 @@
+<html>
+
+<h3>記事を登録する（タイトル＋URL）</h3>
+<input id="article-title" placeholder="記事タイトル">
+<input id="article-url" placeholder="記事URL">
+<button onclick="registerArticle()">登録する</button>
+<div id="register-result"></div>
+
+<script type="module">
+  import { 
+    collection, addDoc, getDocs, query, orderBy, deleteDoc 
+  } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+  async function registerArticle() {
+    const title = document.getElementById("article-title").value;
+    const url = document.getElementById("article-url").value;
+
+    if (!title || !url) {
+      document.getElementById("register-result").innerText = "タイトルとURLを入力してね";
+      return;
+    }
+
+    // Firestore に記事を追加
+    await addDoc(collection(db, "articles"), {
+      title: title,
+      url: url,
+      createdAt: Date.now()
+    });
+
+    // 最新5件だけ残す
+    await trimArticles();
+
+    document.getElementById("register-result").innerText = "登録完了！";
+  }
+
+  async function trimArticles() {
+    const articlesRef = collection(db, "articles");
+    const q = query(articlesRef, orderBy("createdAt", "asc"));
+    const snapshot = await getDocs(q);
+
+    if (snapshot.size > 5) {
+      const extra = snapshot.size - 5;
+      let count = 0;
+
+      snapshot.forEach(doc => {
+        if (count < extra) {
+          deleteDoc(doc.ref);
+          count++;
+        }
+      });
+    }
+  }
+</script>
+
+
+</html>
