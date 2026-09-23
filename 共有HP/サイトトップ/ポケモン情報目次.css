@@ -127,3 +127,54 @@ td a {
   display: block;
   text-decoration: none;
 }
+
+/* 投稿フォームの親カード */
+#post-form-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 12px;
+  width: 400px;        /* ← 大きくするポイント */
+  margin: 0 auto;      /* ← 中央寄せ */
+  border: 2px solid #ddd;
+}
+
+/* ラベルの文字 */
+#post-form-box label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* テキスト入力欄 */
+#post-text {
+  width: 100%;
+  height: 120px;       /* ← 大きくする */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+/* 画像選択欄 */
+#post-image {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* 投稿ボタン */
+#post-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#post-btn:hover {
+  background: #45a049;
+}
