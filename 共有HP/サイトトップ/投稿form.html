@@ -9,40 +9,18 @@
 </head>
 
 <body>
-
-<style>
-  #article-title, #article-url, #article-images {
-    align-items: center;
-    width: 300px;
-    padding: 8px;
-    margin-bottom: 10px;
-  }
-
-  #register-btn {
-    padding: 10px 20px;
-    background: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  #register-btn:hover {
-    background: #45a049;
-  }
-</style>
   
+<div id="post-form-box">
   <h2>投稿フォーム</h2>
 
-  <form id="postForm">
-    <label>文章：</label><br>
-    <textarea id="textInput" rows="5" cols="40"></textarea><br><br>
+  <label>文章：</label><br>
+  <textarea id="post-text"></textarea><br><br>
 
-    <label>画像：</label><br>
-    <input id="article-images" type="file" multiple><br><br>
+  <label>画像：</label><br>
+  <input id="post-image" type="file"><br><br>
 
-    <button type="submit">投稿する</button>
-  </form>
+  <button id="post-btn">投稿する</button>
+</div>
 
   <p id="status"></p>
 
