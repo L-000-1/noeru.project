@@ -8,7 +8,7 @@
 <label>記事URL：</label><br>
 <input id="article-url" type="text"><br><br>
 
-<button onclick="registerArticle()">登録する</button>
+<button id="register-btn">登録する</button>
 
 <p id="register-result" style="color:green;"></p>
 
@@ -67,6 +67,9 @@
       });
     }
   }
+
+document.getElementById("register-btn").addEventListener("click", registerArticle);
+
 </script>
 
 <script>
