@@ -1,0 +1,38 @@
+body {
+   background-image:url("../../背景関連画像/Chanpions少し白い.png");
+   background-size:cover;
+   background-attachment:fixed;
+   background-repeat:no-repeat;
+    position: relative;
+    z-index: 2; /* 白レイヤーより前に出す */
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 500px;
+  margin: 0 auto; /* 中央寄せ */
+  background: none; /* 白背景を消す */
+}
+
+/* 画像だけ中央寄せ */
+.img-center {
+  text-align: center;
+}
+
+/* タイトル部分（文字） */
+.titles {
+  font-size: 18px;
+  color: #0000ff;
+}
+
+
+/* タイトル部分（文字） */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0000ff;
+  margin-bottom: 1px; /* 文字と画像の間に余白 */
+}
+
