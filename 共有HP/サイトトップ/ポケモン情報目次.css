@@ -1,3 +1,4 @@
+/* 背景画像設定 */
 body {
    background-image:url("../背景関連画像/Chanpions少し白い.png");
    background-size:cover;
@@ -6,6 +7,7 @@ body {
     position: relative;
     z-index: 2; /* 白レイヤーより前に出す */
 }
+/* ---------- */
 
 .header {
   position: sticky;
