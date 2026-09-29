@@ -7,16 +7,20 @@ body {
     position: relative;
     z-index: 2; /* 白レイヤーより前に出す */
 }
-/* ---------- */
+/*  */
 
+
+/* thの設定 */
 .header {
   position: sticky;
   top: 0;
   z-index: 10;
-  width: 500px;
+  width: 800px;
   margin: 0 auto; /* 中央寄せ */
   background: none; /* 白背景を消す */
 }
+/*  */
+
 
 .blank-row td {
   height: 20px;      /* 空白の高さ */
