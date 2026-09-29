@@ -93,28 +93,6 @@ th a {
   overflow: hidden;
 }
 /*  */
-/* - - */
-
-/* 画像だけ中央寄せ */
-.img-center {
-  text-align: center;
-}
-
-/* タイトル部分（文字） */
-.titles {
-  font-size: 18px;
-  font-weight: bold;
-  color: #0000ff;
-}
-
-
-/* タイトル部分（文字） */
-.title {
-  font-size: 18px;
-  font-weight: bold;
-  color: #0000ff;
-  margin-bottom: 10px; /* 文字と画像の間に余白 */
-}
 
 /* td をカードっぽくする */
 td {
@@ -127,6 +105,7 @@ td {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer !important;
 }
+/*  */
 
 /* ホバーで光らせる */
 td:hover {
@@ -150,6 +129,28 @@ td a {
   text-decoration: none;
 }
 /*  */
+/* - - */
+
+/* 画像だけ中央寄せ */
+.img-center {
+  text-align: center;
+}
+
+/* タイトル部分（文字） */
+.titles {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0000ff;
+}
+
+
+/* タイトル部分（文字） */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0000ff;
+  margin-bottom: 10px; /* 文字と画像の間に余白 */
+}
 
 /* 投稿フォームの親カード */
 #post-form-box {
