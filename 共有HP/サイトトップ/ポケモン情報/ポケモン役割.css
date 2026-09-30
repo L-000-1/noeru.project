@@ -40,10 +40,17 @@ th a {
 
 /* テーブルを横並びにする親要素 */
 .table {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-wrap: wrap;
   gap: 20px; /* 横・縦の隙間ができる */
   justify-content: center;
+}
+
+/* スマホ（幅600px以下）は2列にする */
+@media (max-width: 600px) {
+  .tables {
+    grid-template-columns: repeat(2, 1fr); /* スマホは2列 */
+  }
 }
 
 /* テーブルの枠線と丸角 */
