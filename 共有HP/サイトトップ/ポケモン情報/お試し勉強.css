@@ -29,6 +29,9 @@ body {
    font-color: #fff;
    font-weight: bold;
    display: inline-block; /* ← これが重要 */
+   display: flex;              /* 横並び */
+   justify-content: center;    /* 中央揃え */
+   align-items: center;
 }
 
 .pokemon-name {
@@ -36,8 +39,6 @@ body {
    border: 2px solid #333;  /* 枠線 */
    padding: 6px 6px;
    border-radius: 8px;
-   display: flex;              /* 横並び */
-   justify-content: center;    /* 中央揃え */
    width: 600px;               /* ← 好きな幅に指定できる */
    margin: 0 auto;             /* 画面中央に配置 */
 }
