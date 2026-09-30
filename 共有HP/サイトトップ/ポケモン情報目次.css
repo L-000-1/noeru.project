@@ -12,12 +12,18 @@ body {
 /* -tableの設定- */
 /* テーブルを横並びにする親要素 */
 .tables {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-wrap: wrap;
   gap: 20px; /* 横・縦の隙間ができる */
   justify-content: center;
 }
 /*  */
+
+@media (max-width: 600px) {
+  .tables {
+    grid-template-columns: repeat(2, 1fr); /* スマホ */
+  }
+}
 
 /* テーブルの枠線と丸角 */
 .cell-table {
