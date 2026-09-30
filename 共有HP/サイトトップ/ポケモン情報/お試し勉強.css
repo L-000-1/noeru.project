@@ -26,7 +26,7 @@ body {
 
 .show {
    font-size: 20px;
-   font-color: #fff;
+   font-color: #000;
    font-weight: bold;
    display: inline-block; /* ← これが重要 */
    align-items: center;
