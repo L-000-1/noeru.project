@@ -9,6 +9,21 @@ body {
 }
 /*  */
 
+.table {
+  display: grid;
+  grid-template-columns: auto 1fr; /* 左は内容幅、右は残り全部 */
+}
+
+.row {
+  display: contents; /* 行として扱う（余計な隙間ゼロ） */
+}
+
+.cell {
+  border: 2px solid #333;
+  padding: 6px 10px;
+  margin: 0; /* 隙間ゼロ */
+}
+
 .pokemon-name {
 }
 
