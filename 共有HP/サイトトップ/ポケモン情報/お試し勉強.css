@@ -1,1 +1,10 @@
-body
+/* 背景画像設定 */
+body {
+   background-image:url("../../背景関連画像/Champions少し白い.png");
+   background-size:cover;
+   background-attachment:fixed;
+   background-repeat:no-repeat;
+    position: relative;
+    z-index: 2; /* 白レイヤーより前に出す */
+}
+/*  */
