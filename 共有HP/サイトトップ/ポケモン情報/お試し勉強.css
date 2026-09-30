@@ -26,6 +26,7 @@ body {
 
 .pokemon-name {
   font-size: 20px;
+  font-color: #fff;
   font-weight: bold;
   background: #9400d3;        /* 背景色 */
   border: 2px solid #333;  /* 枠線 */
