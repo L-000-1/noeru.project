@@ -13,15 +13,15 @@ body {
    display: flex;           /* ブロック横並び */
    justify-content: center; /* ブロックを中央揃え */
    gap: 5px;                /* 間隔設定(flexのため横のみに適応) */
-   margin: 0 auto;          /* 中央に固定配置 */
 }
 
 .name-block {
-  background: #9400d3;    /* 背景色 */
-  border: 2px solid #333; /* 枠線 */
-  padding: 3px 3px;       /* 中の物と枠の間隔 */
-  width: 300px;           /* ← 好きな幅に指定できる */
-  text-align: center;     /* 文字中央揃え */
+   background: #9400d3;    /* 背景色 */
+   border: 2px solid #333; /* 枠線 */
+   padding: 3px 3px;       /* 中の物と枠の間隔 */
+   width: 300px;           /* ← 好きな幅に指定できる */
+   text-align: center;     /* 文字中央揃え */
+   flex-shrink: 0;         /* 画面が小さくても縮まらない */
 }
 
 .text-block {
