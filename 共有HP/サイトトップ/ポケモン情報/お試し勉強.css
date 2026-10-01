@@ -25,22 +25,25 @@ body {
 }
 
 .show {
-   font-size: 20px;
-   font-color: #000;
-   font-weight: bold;
-   display: inline-block; /* ← これが重要 */
-   align-items: center;
-   margin: 0 auto;             /* 画面中央に配置 */
-   display: flex;              /* 横並び */
-   justify-content: center;    /* 中央揃え */
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin: 0 auto;
+}
+
+.name-block {
+  background: #9400d3;    /* 背景色 */
+  border: 2px solid #333; /* 枠線 */
+  border-radius: 8px;
+  padding: 6px 6px;
+  width: 250px;           /* ← 好きな幅に指定できる */
+  text-align: center;
 }
 
 .pokemon-name {
-   background: #9400d3;        /* 背景色 */
-   border: 2px solid #333;  /* 枠線 */
-   padding: 6px 6px;
-   border-radius: 8px;
-   width: 250px;               /* ← 好きな幅に指定できる */
+   font-size: 20px;
+   font-weight: bold;
+   color: #fff;
 }
 
 .pokemon-img {
