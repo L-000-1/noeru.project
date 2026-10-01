@@ -18,16 +18,30 @@ body {
 
 .name-block {
   background: #9400d3;    /* 背景色 */
-  border: 1px solid #333; /* 枠線 */
-  padding: 3px 3px;
+  border: 2px solid #333; /* 枠線 */
+  padding: 3px 3px;       /* 中の物と枠の間隔 */
   width: 300px;           /* ← 好きな幅に指定できる */
-  text-align: center;
+  text-align: center;     /* 文字中央揃え */
+}
+
+.text-block {
+  background: #dcdcdc;    /* 背景色 */
+  border: 2px solid #333; /* 枠線 */
+  padding: 3px 3px;       /* 中の物と枠の間隔 */
+  width: 300px;           /* ← 好きな幅に指定できる */
+  text-align: center;     /* 文字中央揃え */
 }
 
 .pokemon-name {
-   font-size: 15px;
-   font-weight: bold;
-   color: #fff;
+   font-size: 15px;   /* 文字の大きさ */
+   font-weight: bold; /* フォント */
+   color: #fff;       /* 文字の色 */
+}
+
+.pokemon-stats {
+   font-size: 15px;   /* 文字の大きさ */
+   font-weight: bold; /* フォント */
+   color: #fff;       /* 文字の色 */
 }
 
 .pokemon-img {
