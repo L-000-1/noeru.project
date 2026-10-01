@@ -9,21 +9,6 @@ body {
 }
 /*  */
 
-.table {
-  display: grid;
-  grid-template-columns: auto 1fr; /* 左は内容幅、右は残り全部 */
-}
-
-.row {
-  display: contents; /* 行として扱う（余計な隙間ゼロ） */
-}
-
-.cell {
-  border: 2px solid #333;
-  padding: 6px 6px;
-  margin: 0; /* 隙間ゼロ */
-}
-
 .show {
    display: flex;
    justify-content: center;
@@ -34,7 +19,6 @@ body {
 .name-block {
   background: #9400d3;    /* 背景色 */
   border: 2px solid #333; /* 枠線 */
-  border-radius: 8px;
   padding: 6px 6px;
   width: 250px;           /* ← 好きな幅に指定できる */
   text-align: center;
