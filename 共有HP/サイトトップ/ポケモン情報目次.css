@@ -19,7 +19,7 @@ body {
 }
 /*  */
 
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .tables {
     flex-template-columns: repeat(2, 1fr); /* スマホ */
   }
