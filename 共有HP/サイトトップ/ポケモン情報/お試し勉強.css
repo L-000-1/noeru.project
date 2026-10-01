@@ -78,7 +78,9 @@ body {
 /* ------------------------------ */
 
 
-.pokemon-img {
+img {
+   width: 200px;
+   weight: 200px;
 }
 
 .pokemon-text{
