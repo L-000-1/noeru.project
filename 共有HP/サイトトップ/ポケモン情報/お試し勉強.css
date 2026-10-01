@@ -9,11 +9,6 @@ body {
 }
 /*  */
 
-.show {
-   display: flex;
-   justify-content: center;
-}
-
 .show-parent {
    display: flex;           /* ブロック横並び */
    justify-content: center; /* ブロックを中央揃え */
