@@ -24,13 +24,6 @@ body {
   margin: 0; /* 隙間ゼロ */
 }
 
-  background: #9400d3;
-  border: 2px solid #333;
-  border-radius: 8px;
-  padding: 10px 20px;
-  width: 250px;
-  text-align: center;
-
 .show {
    font-size: 20px;
    font-color: #000;
