@@ -12,8 +12,8 @@ body {
 /* -tableの設定- */
 /* テーブルを横並びにする親要素 */
 .tables {
-  display: grid;
-  grid-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px; /* 横・縦の隙間ができる */
   justify-content: center;
 }
@@ -21,7 +21,7 @@ body {
 
 @media (min-width: 700px) {
   .tables {
-    grid-template-columns: repeat(2, 1fr); /* スマホ */
+    flex-template-columns: repeat(2, 1fr); /* スマホ */
   }
 }
 
