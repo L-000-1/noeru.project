@@ -25,7 +25,7 @@ body {
     /* 子 */
     .show-child {
        display: flex;           /* ブロック横並び */
-       gap: 5px;                /* 間隔設定(flexのため、横のみに適応) */
+       gap: 3px;                /* 間隔設定(flexのため、横のみに適応) */
        flex-shrink: 0           /* 画面が小さくても縮まらない */
     }
     /*  */
