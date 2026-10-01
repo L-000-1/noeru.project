@@ -10,9 +10,19 @@ body {
 /*  */
 
 .show {
+   display: flex;
+   justify-content: center;
+}
+
+.show-parent {
    display: flex;           /* ブロック横並び */
    justify-content: center; /* ブロックを中央揃え */
-   gap: 5px;                /* 間隔設定(flexのため横のみに適応) */
+}
+
+.show-child {
+   display: flex;           /* ブロック横並び */
+   gap: 5px;                /* 間隔設定(flexのため、横のみに適応) */
+   flex-shrink: 0           /* 画面が小さくても縮まらない */
 }
 
 .name-block {
