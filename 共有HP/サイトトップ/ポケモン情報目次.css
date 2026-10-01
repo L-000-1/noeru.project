@@ -19,7 +19,7 @@ body {
 }
 /*  */
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
   .tables {
     grid-template-columns: repeat(2, 1fr); /* スマホ */
   }
