@@ -35,8 +35,8 @@ body {
     /* 名前ブロック */
     .name-block {
        background: #9400d3;    /* 背景色 */
-       border: 2px solid #333; /* 枠線 */
-       padding: 3px 3px;       /* 中の物と枠の間隔 */
+       border: 1px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
     }
@@ -54,8 +54,8 @@ body {
     /* 種族値ブロック */
     .text-block {
        background: #dcdcdc;    /* 背景色 */
-       border: 2px solid #333; /* 枠線 */
-       padding: 3px 3px;       /* 中の物と枠の間隔 */
+       border: 1px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
        border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
@@ -77,8 +77,8 @@ body {
 
 .img-block {
    background: #ffffff;    /* 背景色 */
-   border: 2px solid #333; /* 枠線 */
-   padding: 3px 3px;       /* 中の物と枠の間隔 */
+   border: 1px solid #f0f; /* 枠線 */
+   padding: 1px 1px;       /* 中の物と枠の間隔 */
    width: 300px;           /* ← 好きな幅に指定できる */
    weight: 300px;
    text-align: center;     /* 文字中央揃え */
