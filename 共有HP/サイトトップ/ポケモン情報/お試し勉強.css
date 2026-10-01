@@ -13,6 +13,7 @@ body {
    display: flex;           /* ブロック横並び */
    justify-content: center; /* ブロックを中央揃え */
    gap: 5px;                /* 間隔設定(flexのため横のみに適応) */
+   margin: 0 auto;          /* 中央に固定配置 */
 }
 
 .name-block {
