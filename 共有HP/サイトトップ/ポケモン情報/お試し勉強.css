@@ -39,7 +39,6 @@ body {
        padding: 3px 3px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
-       flex-shrink: 0          /* 画面が小さくても縮まらない */
     }
     /*  */
     /* フォント設定 */
@@ -60,7 +59,6 @@ body {
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
        border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
-       flex-shrink: 0          /* 画面が小さくても縮まらない */
     }
     /*  */
     /* フォント設定 */
@@ -77,6 +75,15 @@ body {
 
 /* ------------------------------ */
 
+.img-block {
+   background: #ffffff;    /* 背景色 */
+   border: 2px solid #333; /* 枠線 */
+   padding: 3px 3px;       /* 中の物と枠の間隔 */
+   width: 300px;           /* ← 好きな幅に指定できる */
+   weight: 300px;
+   text-align: center;     /* 文字中央揃え */
+   border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
+}
 
 img {
    width: 200px;
