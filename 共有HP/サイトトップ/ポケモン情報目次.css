@@ -41,7 +41,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 10;
-  width: 800px;
+  width: 500px;
   margin: 0 auto; /* 中央寄せ */
   background: none; /* 白背景を消す */
 }
