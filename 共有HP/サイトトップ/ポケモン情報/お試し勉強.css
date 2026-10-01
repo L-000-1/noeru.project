@@ -58,7 +58,6 @@ body {
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
-       border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
     }
     /*  */
     /* フォント設定 */
@@ -82,6 +81,12 @@ body {
    border-right: none;
 }
 
+.show-child > .text-block,
+.show-child > .img-Ability-block,
+.show-child > .img-block {
+   border-top: none;
+}
+
 /* -- -- */
 
 
@@ -94,16 +99,14 @@ body {
    width: 300px;           /* ← 好きな幅に指定できる */
    weight: 300px;
    text-align: center;     /* 文字中央揃え */
-   border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
 }
 
 .img-Ability-block {
    background: #ffffff;    /* 背景色 */
    border: 2px solid #f0f; /* 枠線 */
    padding: 1px 1px;       /* 中の物と枠の間隔 */
-   width: 602px;           /* ← 好きな幅に指定できる */
+   width: 606px;           /* ← 好きな幅に指定できる */
    text-align: center;     /* 文字中央揃え */
-   border-top: none;       /* 上の枠線だけ消す */ /* これによって枠線が2重にならない */
 }
 
 .img-pokemon {
