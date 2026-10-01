@@ -71,12 +71,14 @@ body {
   /* - - */
 
 .show-child > .text-block:last-child,
-.show-child > .name-block:last-child {
+.show-child > .name-block:last-child,
+.show-child > .img-block:last-child {
    border-right: 2px solid #f0f;
 }
 
 .show-child > .text-block,
-.show-child > .name-block {
+.show-child > .name-block,
+.show-child > .img-block {
    border-right: none;
 }
 
