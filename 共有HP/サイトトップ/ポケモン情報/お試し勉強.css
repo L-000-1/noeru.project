@@ -25,7 +25,7 @@ body {
     /* 子 */
     .show-child {
        display: flex;           /* ブロック横並び */
-       gap: 3px;                /* 間隔設定(flexのため、横のみに適応) */
+       gap: 0px;                /* 間隔設定(flexのため、横のみに適応) */
        flex-shrink: 0           /* 画面が小さくても縮まらない */
     }
     /*  */
@@ -35,7 +35,7 @@ body {
     /* 名前ブロック */
     .name-block {
        background: #9400d3;    /* 背景色 */
-       border: 1px solid #f0f; /* 枠線 */
+       border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -54,7 +54,7 @@ body {
     /* 種族値ブロック */
     .text-block {
        background: #dcdcdc;    /* 背景色 */
-       border: 1px solid #f0f; /* 枠線 */
+       border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -77,7 +77,7 @@ body {
 
 .img-block {
    background: #ffffff;    /* 背景色 */
-   border: 1px solid #f0f; /* 枠線 */
+   border: 2px solid #f0f; /* 枠線 */
    padding: 1px 1px;       /* 中の物と枠の間隔 */
    width: 300px;           /* ← 好きな幅に指定できる */
    weight: 300px;
