@@ -120,7 +120,7 @@ body {
     }
     /*  */
     /* フォント設定 */
-    .Ability-name {
+    .Ability-text {
        font-size: 15px;   /* 文字の大きさ */
        font-weight: bold; /* フォント */
        color: #000;       /* 文字の色 */
