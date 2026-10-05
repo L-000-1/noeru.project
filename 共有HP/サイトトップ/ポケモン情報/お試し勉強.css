@@ -101,7 +101,7 @@ body {
    text-align: center;     /* 文字中央揃え */
 }
 
-.img-Ability-block {
+.Ability-block {
    background: #ffffff;    /* 背景色 */
    border: 2px solid #f0f; /* 枠線 */
    padding: 1px 1px;       /* 中の物と枠の間隔 */
