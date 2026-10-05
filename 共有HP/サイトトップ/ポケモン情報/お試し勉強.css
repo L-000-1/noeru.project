@@ -94,7 +94,7 @@ body {
   /* -特性- */
     /* 特性ブロック */
     .Ability-name-block {
-       background: #afeeee;    /* 背景色 */
+       background: #e0ffff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
