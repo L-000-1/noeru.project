@@ -27,7 +27,7 @@ body {
        display: flex;           /* ブロック横並び */
        gap: 0px;                /* 間隔設定(flexのため、横のみに適応) */
        flex-shrink: 0           /* 画面が小さくても縮まらない */
-    }
+    } 
     /*  */
   /* - - */
 
@@ -50,6 +50,27 @@ body {
     /*  */
   /* - - */
 
+  /* -ポケモン- */
+    /* ポケモンブロック */
+    .img-block {
+       background: #ffffff;    /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 300px;           /* ← 好きな幅に指定できる */
+       weight: 300px;
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
+    /* ポケモンの画像 */
+    .img-pokemon {
+       width: 200px;
+       weight: 200px;
+    }
+    /*  */
+  /* - - */
+
+  /* - - */
+
   /* -種族値- */
     /* 種族値ブロック */
     .text-block {
@@ -60,11 +81,33 @@ body {
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
+
     /* フォント設定 */
     .pokemon-stats {
        font-size: 15px;   /* 文字の大きさ */
        font-weight: bold; /* フォント */
        color: #000;       /* 文字の色 */
+    }
+    /*  */
+  /* - - */
+
+  /* -特性- */
+    /* 特性ブロック */
+    .Ability-name-block {
+       background: #afeeee;    /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
+    /* 特性説明ブロック */
+    .ability-details-block {
+       background: #fff;       /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
     }
     /*  */
   /* - - */
@@ -92,27 +135,6 @@ body {
 
 /* ------------------------------ */
 
-.img-block {
-   background: #ffffff;    /* 背景色 */
-   border: 2px solid #f0f; /* 枠線 */
-   padding: 1px 1px;       /* 中の物と枠の間隔 */
-   width: 300px;           /* ← 好きな幅に指定できる */
-   weight: 300px;
-   text-align: center;     /* 文字中央揃え */
-}
-
-.Ability-block {
-   background: #ffffff;    /* 背景色 */
-   border: 2px solid #f0f; /* 枠線 */
-   padding: 1px 1px;       /* 中の物と枠の間隔 */
-   width: 604px;           /* ← 好きな幅に指定できる */
-   text-align: center;     /* 文字中央揃え */
-}
-
-.img-pokemon {
-   width: 200px;
-   weight: 200px;
-}
 
 .img-ability {
    width: 500px;
