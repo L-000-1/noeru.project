@@ -135,6 +135,7 @@ body {
 
 .show-child > .img-block,
 .show-child > .text-block,
+.show-child > .have-Ability-block,
 .show-child > .Ability-name-block,
 .show-child > .Ability-details-block {
    border-top: none;
