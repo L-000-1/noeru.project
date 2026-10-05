@@ -119,6 +119,12 @@ body {
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
+    /* フォント設定 */
+    .Ability-name {
+       font-size: 15px;   /* 文字の大きさ */
+       font-weight: bold; /* フォント */
+       color: #000;       /* 文字の色 */
+    }
   /* - - */
 
 .show-child > .name-block:last-child,
