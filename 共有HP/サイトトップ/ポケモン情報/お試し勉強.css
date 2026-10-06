@@ -107,6 +107,7 @@ body {
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 150px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
     }
     /*  */
     /* 特性説明ブロック */
@@ -119,8 +120,7 @@ body {
     /*  */
     /* フォント設定 */
     .Ability-font {
-       font-size: 15px;   /* 文字の大きさ */
-       font-weight: bold; /* フォント */
+       font-size: 10px;   /* 文字の大きさ */
        color: #000;       /* 文字の色 */
     }
   /* - - */
