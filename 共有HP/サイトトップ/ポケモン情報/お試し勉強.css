@@ -106,8 +106,7 @@ body {
        background: #e0ffff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
-       width: 604px;           /* ← 好きな幅に指定できる */
-       text-align: center;     /* 文字中央揃え */
+       width: 100px;           /* ← 好きな幅に指定できる */
     }
     /*  */
     /* 特性説明ブロック */
@@ -115,8 +114,7 @@ body {
        background: #fff;       /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
-       width: 604px;           /* ← 好きな幅に指定できる */
-       text-align: center;     /* 文字中央揃え */
+       width: 500px;           /* ← 好きな幅に指定できる */
     }
     /*  */
     /* フォント設定 */
