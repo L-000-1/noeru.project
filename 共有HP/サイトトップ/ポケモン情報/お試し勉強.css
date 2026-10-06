@@ -133,6 +133,7 @@ body {
 
 .show-child > .text-block,
 .show-child > .img-block,
+.show-child > .Ability-name-block,
 .show-child > .name-block {
    border-right: none;
 }
