@@ -169,8 +169,8 @@ body {
 .show-child > .text-block,
 .show-child > .have-Ability-block,
 .show-child > .Ability-name-block,
-.show-child > .Ability-details-block.
-.show-child > .skill-img-block{
+.show-child > .Ability-details-block,
+.show-child > .skill-img-block {
    border-top: none;
 }
 
