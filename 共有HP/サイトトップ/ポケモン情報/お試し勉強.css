@@ -137,11 +137,15 @@ body {
   /*  */
   /* 技名ブロック */
     .skill-img-block {
-       background: #fff;       /* 背景色 */
-       border: 2px solid #f0f; /* 枠線 */
-       padding: 1px 1px;       /* 中の物と枠の間隔 */
-       width: 604px;           /* ← 好きな幅に指定できる */
-       text-align: center;     /* 文字中央揃え */
+       background: #fff;                      /* 背景色 */
+       border: 2px solid #f0f;                /* 枠線 */
+       padding: 1px 1px;                      /* 中の物と枠の間隔 */
+       width: 604px;                          /* ← 好きな幅に指定できる */
+       text-align: center;                    /* 文字中央揃え */
+       display: grid;                         /* ← ここを flex から grid に変更 */
+       grid-template-columns: repeat(2, 1fr); /* ← 横2つ */
+       gap: 10px;                             /* ← 画像同士の間隔（自由に調整） */
+       justify-items: center;                 /* ← 各画像を中央に配置 */
     }
   /*  */
   /* 技名 */
