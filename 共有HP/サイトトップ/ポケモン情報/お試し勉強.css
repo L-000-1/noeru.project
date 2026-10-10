@@ -144,7 +144,7 @@ body {
        text-align: center;                    /* 文字中央揃え */
        display: grid;                         /* ← ここを flex から grid に変更 */
        grid-template-columns: repeat(1, 1fr); /* ← 横1つ */
-       gap: 10px;                             /* ← 画像同士の間隔（自由に調整） */
+       gap: 1px;                             /* ← 画像同士の間隔（自由に調整） */
        justify-items: center;                 /* ← 各画像を中央に配置 */
     }
   /*  */
