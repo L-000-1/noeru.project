@@ -55,7 +55,7 @@ body {
     /* ポケモン紹介ってやつ */
     .show-title-block {
        background: #f0f;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -74,7 +74,7 @@ body {
     /* 名前ブロック */
     .name-block {
        background: #ee82ee;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -93,7 +93,7 @@ body {
     /* ポケモンブロック */
     .img-block {
        background: #ffffff;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        weight: 300px;
@@ -114,7 +114,7 @@ body {
     /* 種族値ブロック */
     .text-block {
        background: #dcdcdc;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -134,7 +134,7 @@ body {
     /* ポケモン名ブロック */
     .have-Ability-block {
        background: #ee82ee;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -143,7 +143,7 @@ body {
     /* 特性ブロック */
     .Ability-name-block {
        background: #dda0dd;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 150px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -152,7 +152,7 @@ body {
    /* 特性説明ブロック */
     .ability-details-block {
        background: #fff;       /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 450px;           /* ← 好きな幅に指定できる */
     }
@@ -168,7 +168,7 @@ body {
     /* 技構成ってとこ */
     .move-set {
        background: #dda0dd;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 250px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -177,7 +177,7 @@ body {
     /* 技名ブロック */
     .skill-block {
        background: #fff;       /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 450px;           /* ← 好きな幅に指定できる */
     }
@@ -194,7 +194,7 @@ body {
     /* 持ち物ってとこ */
     .items-block {
        background: #dda0dd;    /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
@@ -203,7 +203,7 @@ body {
     /* 持ち物ブロック */
     .items-name-block {
        background: #fff;       /* 背景色 */
-       border: 2px solid #00f; /* 枠線 */
+       border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 450px;           /* ← 好きな幅に指定できる */
     }
@@ -213,7 +213,7 @@ body {
 .show-child > .name-block:last-child,
 .show-child > .img-block:last-child,
 .show-child > .text-block:last-child {
-   border-right: 2px solid #f0f;
+   border-right: 2px solid #0ff;
 }
 
 .show-child > .text-block,
