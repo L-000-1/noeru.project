@@ -136,7 +136,7 @@ body {
     }
   /*  */
   /* 技名ブロック */
-    .move-block {
+    .skill-block {
        background: #fff;       /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
@@ -144,7 +144,7 @@ body {
     }
   /*  */
   /* 技名 */
-    .move-text {
+    .skill-text {
        font-size: 15px;   /* 文字の大きさ */
        color: #000;       /* 文字の色 */
     }
