@@ -53,7 +53,7 @@ body {
   /* -ポケモンの名前- */
     /* 名前ブロック */
     .name-block {
-       background: #9400d3;    /* 背景色 */
+       background: #00f;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
@@ -111,9 +111,9 @@ body {
   /* - - */
 
   /* -特性- */
-    /* メガある場合、所持者ブロック */
+    /* ポケモン名ブロック */
     .have-Ability-block {
-       background: #9400d3;    /* 背景色 */
+       background: #00f;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
