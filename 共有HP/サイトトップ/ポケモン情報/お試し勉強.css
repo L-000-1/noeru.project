@@ -31,6 +31,25 @@ body {
     /*  */
   /* - - */
 
+  /* -紹介始まり- */
+    /* ポケモン紹介ってやつ */
+    .show-title-block {
+       background: #6a5acd;    /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
+    /* 文字設定 */
+    .title-text {
+       font-size: 30px;   /* 文字の大きさ */
+       font-weight: bold; /* フォント */
+       color: #fff;       /* 文字の色 */
+    }
+    /*  */
+  /* - - */
+
   /* -ポケモンの名前- */
     /* 名前ブロック */
     .name-block {
@@ -125,8 +144,8 @@ body {
     }
   /* - - */
 
-/* -技- */
-  /* 技構成ってとこ */
+  /* -技- */
+    /* 技構成ってとこ */
     .move-set {
        background: #98fb98;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
@@ -134,22 +153,22 @@ body {
        width: 250px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
     }
-  /*  */
-  /* 技名ブロック */
+    /*  */
+    /* 技名ブロック */
     .skill-block {
        background: #fff;       /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 450px;           /* ← 好きな幅に指定できる */
     }
-  /*  */
-  /* 技名 */
+    /*  */
+    /* 技名 */
     .skill-text {
        font-size: 15px;   /* 文字の大きさ */
        color: #000;       /* 文字の色 */
     }
-  /*  */
-/* - - */
+    /*  */
+  /* - - */
 
 .show-child > .name-block:last-child,
 .show-child > .img-block:last-child,
