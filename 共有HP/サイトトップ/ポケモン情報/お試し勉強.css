@@ -36,7 +36,7 @@ body {
     .show-title-block {
        background: #6a5acd;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
-       padding: 0px 1px;       /* 中の物と枠の間隔 */
+       padding: 0px 2px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
     }
