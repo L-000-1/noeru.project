@@ -149,7 +149,7 @@ body {
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
-   /* 特性説明ブロック */
+    /* 特性説明ブロック */
     .ability-details-block {
        background: #fff;       /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
@@ -162,6 +162,7 @@ body {
        font-size: 15px;   /* 文字の大きさ */
        color: #000;       /* 文字の色 */
     }
+    /*  */
   /* - - */
 
   /* -技- */
