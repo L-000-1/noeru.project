@@ -13,8 +13,28 @@ body {
 /* ------------------------------ */
 
 
-/* --ポケモン紹介-- */
+/* -文字設定(以下以外に必要な場合は随時ブロック設定と同列に書き込むこと)- */
+  /* 黒色 */
+  .black {
+     font-size: 15px;   /* 文字の大きさ */
+     font-weight: bold; /* フォント */
+     color: #000;       /* 文字の色 */
+  }
+  /*  */
+  /* 白色 */
+  .white {
+     font-size: 15px;   /* 文字の大きさ */
+     font-weight: bold; /* フォント */
+     color: #000;       /* 文字の色 */
+  }
+  /*  */
+/* - - */
 
+
+/* ------------------------------ */
+
+
+/* --ポケモン紹介-- */
   /* -横並び設定(画面の縮小拡大に影響されないための設定)- */
     /* 親 */
     .show-parent {
@@ -34,7 +54,7 @@ body {
   /* -紹介始まり- */
     /* ポケモン紹介ってやつ */
     .show-title-block {
-       background: #00f;    /* 背景色 */
+       background: #f0f;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -53,7 +73,7 @@ body {
   /* -ポケモンの名前- */
     /* 名前ブロック */
     .name-block {
-       background: #1e90ff;    /* 背景色 */
+       background: #ee82ee;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
@@ -113,7 +133,7 @@ body {
   /* -特性- */
     /* ポケモン名ブロック */
     .have-Ability-block {
-       background: #1e90ff;    /* 背景色 */
+       background: #ee82ee;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -122,7 +142,7 @@ body {
     /*  */
     /* 特性ブロック */
     .Ability-name-block {
-       background: #00bfff;    /* 背景色 */
+       background: #dda0dd;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 150px;           /* ← 好きな幅に指定できる */
@@ -147,7 +167,7 @@ body {
   /* -技- */
     /* 技構成ってとこ */
     .move-set {
-       background: #1e90ff;    /* 背景色 */
+       background: #dda0dd;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 250px;           /* ← 好きな幅に指定できる */
@@ -171,9 +191,24 @@ body {
   /* - - */
 
   /* -持ち物- */
-    /* 持ち物ブロック */
+    /* 持ち物ってとこ */
     .items-block {
-       
+       background: #dda0dd;    /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 250px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
+    /* 持ち物ブロック */
+    .items-name-block {
+       background: #fff;       /* 背景色 */
+       border: 2px solid #f0f; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 450px;           /* ← 好きな幅に指定できる */
+    }
+    /*  */
+  /* - - */
 
 .show-child > .name-block:last-child,
 .show-child > .img-block:last-child,
@@ -196,7 +231,6 @@ body {
 .show-child > .Ability-details-block {
    border-top: none;
 }
-
 /* -- -- */
 
 
