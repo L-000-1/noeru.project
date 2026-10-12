@@ -34,9 +34,9 @@ body {
   /* -紹介始まり- */
     /* ポケモン紹介ってやつ */
     .show-title-block {
-       background: #6a5acd;    /* 背景色 */
+       background: #00f;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
-       padding: 0px 2px;       /* 中の物と枠の間隔 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
     }
@@ -53,7 +53,7 @@ body {
   /* -ポケモンの名前- */
     /* 名前ブロック */
     .name-block {
-       background: #00f;    /* 背景色 */
+       background: #1e90ff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
@@ -113,7 +113,7 @@ body {
   /* -特性- */
     /* ポケモン名ブロック */
     .have-Ability-block {
-       background: #00f;    /* 背景色 */
+       background: #1e90ff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -122,7 +122,7 @@ body {
     /*  */
     /* 特性ブロック */
     .Ability-name-block {
-       background: #afeeee;    /* 背景色 */
+       background: #00bfff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 150px;           /* ← 好きな幅に指定できる */
@@ -147,7 +147,7 @@ body {
   /* -技- */
     /* 技構成ってとこ */
     .move-set {
-       background: #98fb98;    /* 背景色 */
+       background: #1e90ff;    /* 背景色 */
        border: 2px solid #f0f; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 250px;           /* ← 好きな幅に指定できる */
@@ -169,6 +169,11 @@ body {
     }
     /*  */
   /* - - */
+
+  /* -持ち物- */
+    /* 持ち物ブロック */
+    .items-block {
+       
 
 .show-child > .name-block:last-child,
 .show-child > .img-block:last-child,
