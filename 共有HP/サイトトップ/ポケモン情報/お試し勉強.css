@@ -14,15 +14,27 @@ body {
 
 
 /* -文字設定(以下以外に必要な場合は随時ブロック設定と同列に書き込むこと)- */
-  /* 黒色 */
-  .black {
+   /* 黒色 */
+  .black-1 {
+     font-size: 15px;   /* 文字の大きさ */
+     color: #000;       /* 文字の色 */
+  }
+  /*  */
+  /* 黒色(bold) */
+  .black-2 {
      font-size: 15px;   /* 文字の大きさ */
      font-weight: bold; /* フォント */
      color: #000;       /* 文字の色 */
   }
   /*  */
   /* 白色 */
-  .white {
+  .white-1 {
+     font-size: 15px;   /* 文字の大きさ */
+     color: #fff;       /* 文字の色 */
+  }
+  /*  */
+  /* 白色(bold) */
+  .white-2 {
      font-size: 15px;   /* 文字の大きさ */
      font-weight: bold; /* フォント */
      color: #fff;       /* 文字の色 */
@@ -80,13 +92,6 @@ body {
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
-    /* フォント設定 */
-    .pokemon-name {
-       font-size: 15px;   /* 文字の大きさ */
-       font-weight: bold; /* フォント */
-       color: #fff;       /* 文字の色 */
-    }
-    /*  */
   /* - - */
 
   /* -ポケモン- */
@@ -118,14 +123,6 @@ body {
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
-    }
-    /*  */
-
-    /* フォント設定 */
-    .pokemon-stats {
-       font-size: 15px;   /* 文字の大きさ */
-       font-weight: bold; /* フォント */
-       color: #000;       /* 文字の色 */
     }
     /*  */
   /* - - */
