@@ -239,18 +239,10 @@ body {
    border-right: none;
 }
 
-.show-child > .name-block,
-.show-child > .img-block,
-.show-child > .text-block,
-.show-child > .have-Ability-block,
-.show-child > .Ability-name-block,
-.show-child > .Ability-details-block,
-.show-child > .skill-block,
-.show-child > .move-set,
-.show-child > .items-block
-.show-child > .items-name-block
-.show-child > .training-ability-block,
-.show-child > .training-ability-name-block {
+.show-child > .name-block, .show-child > .img-block, .show-child > .text-block,
+.show-child > .have-Ability-block, .show-child > .Ability-name-block, .show-child > .Ability-details-block,
+.show-child > .skill-block, .show-child > .move-set, .show-child > .items-block,
+.show-child > .items-name-block, .show-child > .training-ability-block, .show-child > .training-ability-name-block {
    border-top: none;
 }
 /* -- -- */
