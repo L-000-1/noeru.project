@@ -165,6 +165,7 @@ body {
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
+
   /* -技- */
     /* 技構成ってとこ */
     .move-set {
@@ -201,6 +202,27 @@ body {
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 450px;           /* ← 好きな幅に指定できる */
+    }
+    /*  */
+  /* - - */
+
+  /* -特性- */
+    /* 特性ブロック */
+    .ability-block {
+       background: #dda0dd;    /* 背景色 */
+       border: 2px solid #0ff; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
+    /* 特性名ブロック */
+    .ability-name-block {
+       background: #dda0dd;    /* 背景色 */
+       border: 2px solid #0ff; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
     }
     /*  */
   /* - - */
