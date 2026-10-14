@@ -169,7 +169,7 @@ body {
   /* -技- */
     /* 技構成ってとこ */
     .move-set {
-       background: #dda0dd;    /* 背景色 */
+       background: #ee82ee;    /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -189,7 +189,7 @@ body {
   /* -持ち物- */
     /* 持ち物ってとこ */
     .items-block {
-       background: #dda0dd;    /* 背景色 */
+       background: #ee82ee;    /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -208,8 +208,8 @@ body {
 
   /* -特性- */
     /* 特性ブロック */
-    .training-block > .ability-block {
-       background: #dda0dd;    /* 背景色 */
+    .training-ability-block {
+       background: #ee82ee;    /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
@@ -217,8 +217,8 @@ body {
     }
     /*  */
     /* 特性名ブロック */
-    .training-block > .ability-name-block {
-       background: #dda0dd;    /* 背景色 */
+    .training-ability-name-block {
+       background: #fff;    /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 604px;           /* ← 好きな幅に指定できる */
