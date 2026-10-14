@@ -153,7 +153,18 @@ body {
     }
     /*  */
   /* - - */
+/* -- -- */
 
+/* --育成情報-- */
+    /* 育成情報ってとこ */
+    .training-block {
+       background: #f0f;    /* 背景色 */
+       border: 2px solid #0ff; /* 枠線 */
+       padding: 1px 1px;       /* 中の物と枠の間隔 */
+       width: 604px;           /* ← 好きな幅に指定できる */
+       text-align: center;     /* 文字中央揃え */
+    }
+    /*  */
   /* -技- */
     /* 技構成ってとこ */
     .move-set {
