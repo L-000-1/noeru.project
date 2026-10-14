@@ -113,8 +113,6 @@ body {
     /*  */
   /* - - */
 
-  /* - - */
-
   /* -種族値- */
     /* 種族値ブロック */
     .text-block {
@@ -162,7 +160,7 @@ body {
        background: #dda0dd;    /* 背景色 */
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
-       width: 250px;           /* ← 好きな幅に指定できる */
+       width: 450px;           /* ← 好きな幅に指定できる */
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
@@ -214,7 +212,8 @@ body {
 .show-child > .text-block,
 .show-child > .have-Ability-block,
 .show-child > .Ability-name-block,
-.show-child > .Ability-details-block {
+.show-child > .Ability-details-block,
+.show-child > .skill-block {
    border-top: none;
 }
 /* -- -- */
