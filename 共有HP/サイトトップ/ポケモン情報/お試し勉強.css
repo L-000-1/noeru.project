@@ -62,7 +62,6 @@ body {
     } 
     /*  */
   /* - - */
-
   /* -紹介始まり- */
     /* ポケモン紹介ってやつ */
     .show-title-block {
@@ -81,7 +80,6 @@ body {
     }
     /*  */
   /* - - */
-
   /* -ポケモンの名前- */
     /* 名前ブロック */
     .name-block {
@@ -93,7 +91,6 @@ body {
     }
     /*  */
   /* - - */
-
   /* -ポケモン- */
     /* ポケモンブロック */
     .img-block {
@@ -112,7 +109,6 @@ body {
     }
     /*  */
   /* - - */
-
   /* -種族値- */
     /* 種族値ブロック */
     .text-block {
@@ -124,7 +120,6 @@ body {
     }
     /*  */
   /* - - */
-
   /* -特性- */
     /* ポケモン名ブロック */
     .have-ability-block {
@@ -234,8 +229,7 @@ body {
 
 .show-child > .name-block, .show-child > .img-block, .show-child > .text-block,
 .show-child > .have-Ability-block, .show-child > .Ability-name-block, .show-child > .Ability-details-block,
-.show-child > .skill-block, .show-child > .move-set, .show-child > .items-block,
-.show-child > .items-name-block, .show-child > .training-ability-block, .show-child > .training-ability-name-block {
+.show-child > .training-headline-block, .show-child > .training-main-block {
    border-top: none;
 }
 /* -- -- */
