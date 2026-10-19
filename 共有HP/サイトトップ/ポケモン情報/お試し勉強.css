@@ -181,66 +181,36 @@ body {
      width: 604px;           /* ← 好きな幅に指定できる */
   }
   /*  */
-  /* 技名ブロック */
-  .skill-block {
-     background: #fff;       /* 背景色 */
-     border: 2px solid #0ff; /* 枠線 */
-     padding: 1px 1px;       /* 中の物と枠の間隔 */
-     width: 604px;           /* ← 好きな幅に指定できる */
-  }
-  /*  */
-  /* 持ち物ブロック */
-  .items-name-block {
-     background: #fff;       /* 背景色 */
-     border: 2px solid #0ff; /* 枠線 */
-     padding: 1px 1px;       /* 中の物と枠の間隔 */
-     width: 604px;           /* ← 好きな幅に指定できる */
-  }
-  /*  */
-  /* 特性名ブロック */
-  .training-ability-name-block {
-     background: #fff;    /* 背景色 */
-     border: 2px solid #0ff; /* 枠線 */
-     padding: 1px 1px;       /* 中の物と枠の間隔 */
-     width: 604px;           /* ← 好きな幅に指定できる */
-  }
-  /*  */
-  /* 能力ポイントブロック */
-  .EV-block {
-     background: #fff;    /* 背景色 */
-     border: 2px solid #0ff; /* 枠線 */
-     padding: 1px 1px;       /* 中の物と枠の間隔 */
-     width: 604px;           /* ← 好きな幅に指定できる */
-  }
-  /*  */
+/* - - */
 
-.show-child > .name-block:last-child,
-.show-child > .img-block:last-child,
-.show-child > .text-block:last-child {
-   border-right: 2px solid #0ff;
-}
-
-.show-child > .text-block,
-.show-child > .img-block,
-.show-child > .Ability-name-block,
-.show-child > .name-block {
-   border-right: none;
-}
-
-.show-child > .name-block, .show-child > .img-block, .show-child > .text-block,
-.show-child > .have-Ability-block, .show-child > .Ability-name-block, .show-child > .Ability-details-block,
-.show-child > .training-headline-block, .show-child > .training-main-block {
-   border-top: none;
-}
-/* -- -- */
+/* -枠線の設定- */
+  /* 2つ以上のブロックが横に並ぶときの、ブロックに対して、右枠線消す設定 */
+  .show-child > .text-block,
+  .show-child > .img-block,
+  .show-child > .Ability-name-block,
+  .show-child > .name-block {
+     border-right: none;
+  }
+  /*  */
+  /* 2つ以上のブロックが横に並ぶときの、右端ブロックに対してだけ、右枠線をつける設定 */
+  .show-child > .name-block:last-child,
+  .show-child > .img-block:last-child,
+  .show-child > .text-block:last-child {
+     border-right: 2px solid #0ff;
+  }
+  /*  */
+  /* 下に連続して並ぶブロックの、上枠線消し */
+  .show-child > .name-block, .show-child > .img-block, .show-child > .text-block,
+  .show-child > .have-Ability-block, .show-child > .Ability-name-block, .show-child > .Ability-details-block,
+  .show-child > .training-headline-block, .show-child > .training-main-block {
+     border-top: none;
+  }
+  /*  */
+/* - - */
 
 
 /* ------------------------------ */
 
-
-.img-ability {
-   width: 500px;
-}
 
 .pokemon-text{
 }
