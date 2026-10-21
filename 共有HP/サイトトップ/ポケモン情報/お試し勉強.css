@@ -374,7 +374,7 @@ body {
   }
   /*  */
   /* ドラゴン */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -384,7 +384,7 @@ body {
   }
   /*  */
   /* あく */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
