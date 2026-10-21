@@ -224,10 +224,10 @@ body {
 .move-type-block {
    border-radius: 15px;       /* 角丸 */
    background: #6a5acd;       /* 背景色 */
-   border: 10px solid #9370db; /* 枠線 */
-   width: 100px;              /* ← 好きな幅に指定できる */
+   border: 5px solid #9370db; /* 枠線 */
+   width: 80px;              /* ← 好きな幅に指定できる */
    text-align: center;        /* 文字中央揃え */
-   font-size: 15px;           /* 文字の大きさ */
+   font-size: 5px;           /* 文字の大きさ */
    color: #fff;               /* 文字の色 */
 }
 /*  */
@@ -347,9 +347,9 @@ body {
   .bug-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #32cd32;       /* 背景色 */
-     width: 100px;              /* ← 好きな幅に指定できる */
+     width: 80px;              /* ← 好きな幅に指定できる */
      text-align: center;        /* 文字中央揃え */
-     font-size: 15px;           /* 文字の大きさ */
+     font-size: 5px;           /* 文字の大きさ */
      color: #fff;               /* 文字の色 */
   }
   /*  */
