@@ -185,6 +185,10 @@ body {
 
 /* 技効果 */
 
+
+
+  border-radius: 10px; /* 角丸 */
+
 /* -枠線の設定- */
   /* 2つ以上のブロックが横に並ぶときの、ブロックに対して、右枠線消す設定 */
   .show-child > .name-block,
@@ -231,8 +235,6 @@ body {
    color: #fff;               /* 文字の色 */
 }
 /*  */
-
-  border-radius: 10px; /* 角丸 */
 
 .pokemon-text{
 }
