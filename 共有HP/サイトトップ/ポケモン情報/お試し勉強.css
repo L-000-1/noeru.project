@@ -234,7 +234,7 @@ body {
 
 /* -技タイプブロック- */
   /* ノーマル */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -244,7 +244,7 @@ body {
   }
   /*  */
   /* ほのお */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -254,7 +254,7 @@ body {
   }
   /*  */
   /* みず */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -264,7 +264,7 @@ body {
   }
   /*  */
   /* でんき */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -274,7 +274,7 @@ body {
   }
   /*  */
   /* くさ */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -284,7 +284,7 @@ body {
   }
   /*  */
   /* こおり */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -294,7 +294,7 @@ body {
   }
   /*  */
   /* かくとう */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -304,7 +304,7 @@ body {
   }
   /*  */
   /* どく */  
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -314,7 +314,7 @@ body {
   }
   /*  */
   /* じめん */  
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -324,7 +324,7 @@ body {
   }
   /*  */
   /* ひこう */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -334,7 +334,7 @@ body {
   }
   /*  */
   /* エスパー */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -354,7 +354,7 @@ body {
   }
   /*  */
   /* いわ */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -364,7 +364,7 @@ body {
   }
   /*  */
   /* ゴースト */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -394,7 +394,7 @@ body {
   }
   /*  */
   /* はがね */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
@@ -404,7 +404,7 @@ body {
   }
   /*  */
   /* フェアリー */
-  .move-type-block {
+  .-type-block {
      border-radius: 15px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
