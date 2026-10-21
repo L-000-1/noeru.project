@@ -204,7 +204,7 @@ body {
   /*  */
   /* 下に連続して並ぶブロックの、上枠線消し */
   .show-child > .name-block, .show-child > .img-block, .show-child > .text-block,
-  .show-child > .have-Ability-block, .show-child > .Ability-name-block, .show-child > .Ability-details-block,
+  .show-child > .have-Ability-block, .show-child > .ability-name-block, .show-child > .ability-details-block,
   .show-child > .training-headline-block, .show-child > .training-main-block {
      border-top: none;
   }
