@@ -220,18 +220,200 @@ body {
     gap:5px;
 }
 
-/* 技タイプブロック */
+/* 技効果ブロック */
 .move-type-block {
    border-radius: 15px;       /* 角丸 */
    background: #6a5acd;       /* 背景色 */
-   border: 1px solid #9370db; /* 枠線 */
-   width: 120px;              /* ← 好きな幅に指定できる */
+   border: 10px solid #9370db; /* 枠線 */
+   width: 100px;              /* ← 好きな幅に指定できる */
    text-align: center;        /* 文字中央揃え */
    font-size: 15px;           /* 文字の大きさ */
    color: #fff;               /* 文字の色 */
 }
 /*  */
 
+/* -技タイプブロック- */
+  /* ノーマル */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* ほのお */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* みず */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* でんき */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* くさ */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* こおり */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* かくとう */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* どく */  
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* じめん */  
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* ひこう */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* エスパー */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* むし */
+  .bug-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #32cd32;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* いわ */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* ゴースト */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* ドラゴン */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* あく */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* はがね */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+  /* フェアリー */
+  .move-type-block {
+     border-radius: 15px;       /* 角丸 */
+     background: #dcdcdc;       /* 背景色 */
+     width: 100px;              /* ← 好きな幅に指定できる */
+     text-align: center;        /* 文字中央揃え */
+     font-size: 15px;           /* 文字の大きさ */
+     color: #fff;               /* 文字の色 */
+  }
+  /*  */
+/*  */
 .pokemon-text{
 }
 
