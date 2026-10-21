@@ -177,9 +177,6 @@ body {
      border: 2px solid #0ff; /* 枠線 */
      padding: 1px 1px;       /* 中の物と枠の間隔 */
      width: 604px;           /* ← 好きな幅に指定できる */
-     display: flex;          /* ブロック横並び */
-     align-items: center;
-     gap: 4px;
   }
   /*  */
 /* - - */
@@ -217,6 +214,12 @@ body {
 
 /* ------------------------------ */
 
+
+.move-row{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
 
 /* 技タイプブロック */
 .move-type-block {
