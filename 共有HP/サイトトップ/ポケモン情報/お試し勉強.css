@@ -98,14 +98,12 @@ body {
        border: 2px solid #0ff; /* 枠線 */
        padding: 1px 1px;       /* 中の物と枠の間隔 */
        width: 300px;           /* ← 好きな幅に指定できる */
-       weight: 300px;
        text-align: center;     /* 文字中央揃え */
     }
     /*  */
     /* ポケモンの画像 */
     .img-pokemon {
        width: 200px;
-       weight: 200px;
     }
     /*  */
   /* - - */
@@ -226,7 +224,6 @@ body {
    background: #6a5acd;       /* 背景色 */
    border: 1px solid #9370db; /* 枠線 */
    width: 120px;              /* ← 好きな幅に指定できる */
-   weight: 30px;
    text-align: center;        /* 文字中央揃え */
    font-size: 15px;           /* 文字の大きさ */
    color: #fff;               /* 文字の色 */
