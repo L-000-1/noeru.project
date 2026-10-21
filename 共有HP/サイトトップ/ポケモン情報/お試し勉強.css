@@ -227,7 +227,7 @@ body {
    border: 3px solid #9370db; /* 枠線 */
    width: 60px;               /* ← 好きな幅に指定できる */
    text-align: center;        /* 文字中央揃え */
-   font-size: 6px;            /* 文字の大きさ */
+   font-size: 10px;            /* 文字の大きさ */
    color: #fff;               /* 文字の色 */
 }
 /*  */
