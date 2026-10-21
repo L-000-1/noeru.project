@@ -347,7 +347,7 @@ body {
   .bug-type-block {
      border-radius: 5px;        /* 角丸 */
      background: #32cd32;       /* 背景色 */
-     width: 50px;               /* ← 好きな幅に指定できる */
+     width: 40px;               /* ← 好きな幅に指定できる */
      text-align: center;        /* 文字中央揃え */
      font-size: 10px;           /* 文字の大きさ */
      color: #fff;               /* 文字の色 */
@@ -404,12 +404,12 @@ body {
   }
   /*  */
   /* フェアリー */
-  .-type-block {
-     border-radius: 15px;       /* 角丸 */
+  .fairy-type-block {
+     border-radius: 5px;       /* 角丸 */
      background: #dcdcdc;       /* 背景色 */
-     width: 100px;              /* ← 好きな幅に指定できる */
+     width: 40px;              /* ← 好きな幅に指定できる */
      text-align: center;        /* 文字中央揃え */
-     font-size: 15px;           /* 文字の大きさ */
+     font-size: 10px;           /* 文字の大きさ */
      color: #fff;               /* 文字の色 */
   }
   /*  */
