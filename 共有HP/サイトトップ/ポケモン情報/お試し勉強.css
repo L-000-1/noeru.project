@@ -222,11 +222,11 @@ body {
 
 /* 技タイプブロック */
 .move-type-block {
-   border-radius: 10px;       /* 角丸 */
+   border-radius: 15px;       /* 角丸 */
    background: #6a5acd;       /* 背景色 */
    border: 1px solid #9370db; /* 枠線 */
-   width: 50px;              /* ← 好きな幅に指定できる */
-   weight: 15px;
+   width: 120px;              /* ← 好きな幅に指定できる */
+   weight: 30px;
 }
 /*  */
 
