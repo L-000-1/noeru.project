@@ -184,14 +184,13 @@ body {
 /* 技タイプブロック */
 
 /* 技効果 */
-  border-radius: 10px; /* 角丸 */
 
 /* -枠線の設定- */
   /* 2つ以上のブロックが横に並ぶときの、ブロックに対して、右枠線消す設定 */
+  .show-child > .name-block,
   .show-child > .text-block,
   .show-child > .img-block,
-  .show-child > .ability-name-block,
-  .show-child > .name-block {
+  .show-child > .ability-name-block {
      border-right: none;
   }
   /*  */
@@ -233,6 +232,7 @@ body {
 }
 /*  */
 
+  border-radius: 10px; /* 角丸 */
 
 .pokemon-text{
 }
