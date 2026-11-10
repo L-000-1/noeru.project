@@ -215,7 +215,8 @@ body {
 
 
 .move-row{
-    display:flex;
+    display:grid;
+    grid-template-columns: 70px 120px 90px;
     align-items:center;
     gap:5px;
 }
