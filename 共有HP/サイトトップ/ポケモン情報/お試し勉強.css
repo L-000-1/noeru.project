@@ -406,7 +406,7 @@ body {
   /* フェアリー */
   .fairy-type-block {
      border-radius: 5px;       /* 角丸 */
-     background: #dcdcdc;       /* 背景色 */
+     background: #ffc0cb;       /* 背景色 */
      width: 50px;              /* ← 好きな幅に指定できる */
      text-align: center;        /* 文字中央揃え */
      font-size: 10px;           /* 文字の大きさ */
