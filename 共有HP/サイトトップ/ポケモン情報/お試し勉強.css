@@ -384,9 +384,9 @@ body {
   }
   /*  */
   /* あく */
-  .-type-block {
+  .dark-type-block {
      border-radius: 15px;       /* 角丸 */
-     background: #dcdcdc;       /* 背景色 */
+     background: #000;       /* 背景色 */
      width: 100px;              /* ← 好きな幅に指定できる */
      text-align: center;        /* 文字中央揃え */
      font-size: 15px;           /* 文字の大きさ */
